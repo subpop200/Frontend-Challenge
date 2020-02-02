@@ -2,104 +2,100 @@
   box-sizing: border-box;
 }
 
-
-Body {
-
-
-  margin:  0 auto;
-  background:  #dadada;
-  font-size:  24px;
-
-}
-
-.container, nav {
-  width:  50%;
-
-  margin:  0 auto;
-  margin-left:  30%;
+body {
+  background-color:  rgb(177, 176, 174);
 }
 
 .container {
-  height:  667px;
-  border:  1px #505055;
+  position:  center;
+  position:  relative;
+  margin:  0 auto;
+  background-color: white;
+  Height:  667px;
+  Width:  375px;
+  Font-size:  18px;
 
 }
+
 nav {
-  background-color:  #2D923E;
-  width: 375px;
+  background-color:  #2d923e;
   height:  149px;
+  width:  100%;
+  box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.base {
+
+  width:  375px;
+  height:  20px;
   left:  0px;
   top:  0px;
-  position: absolute;
-  box-shadow:  0px 4px 4px rgba (0, 0, 0, 0.25);
-  text-align:  center;
-
+  background-image:  url(Base.png);
 }
 
-div, .base{
-  background-image:  url(/assets/Base.png);
-  background-repeat:  no-repeat;
-
-}
-
-a {
-  font-size:  18px;
-  color:  white;
-  line-height:  22px;
-  letter-spacing:  -0.0241176em;
-  font-family:  SF UI Display;
-  font-style:  normal;
-  font-weight:  bold;
-  text-align:  center;
-  text-styling:  none;
-
-}
 .backarrow {
-  position:  float;
-  background-image:  url(back-arrow.png);
-  background-repeat:  no-repeat;
-
-
+  width:  12.27px;
+  height:  20.66px;
+  position:  relative;
+  left:  8px;
+  top:  4px;
+  background-image:  url(backarrow.png);
 }
-/** testing this theory out now **/
 
-h1  {
-  left:  10.56%;
-  right:  22.18%;
-  top:  19.23%;
-  bottom:  19.23%;
-  font-size:  17px;
-  font-weight:  500;
-  line-height:  22px;
-  display:  flex;
-  align-items:  center;
-  color:  #505055;
-  background-color:  white;
-  padding:  5px; height:  26px; width:  257px;
-  margin-left:  58px;
-  margin-bottom:  75px;
+h1 {
+font-family: SF UI Display;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+position:  relative;
+text-align: center;
+letter-spacing: -0.0241176em;
+bottom:  36px;
+color: #FFFFFF;
+}
+
+.searchcontainer {
+  position: absolute;
+  left: 0px;
+  right:  0px;
+  top:  0px;
+  bottom:  0px;
+
+  background:  #FFFFFF;
   border-radius:  4px;
+  left:  15.47%;
+  right: 16%;
+  top:  7.2%;
+  bottom:  88.91%;
+  font-style:  SF UI Display;
 }
 
 .search {
-  padding-left:  20px;
-  background-image:  url(/assets/search.png);
-  background-repeat:  no-repeat;
 
-
+  height:  10.11px;
+  width:  10.02px;
+  position:  absolute;
+  left:  2.79%;
+  right:  93.31%;
+  top:  30.56%;
+  bottom:  36%;
+  background-image:  url(Search.png);
 }
 
-h3{
-  position:  absolute;
-  left:  0px;
-  right:  0px;
-  top:  0px;
+.searchcontainer2 {
+  position: relative;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
 
-  display:  flex;
-  align-items:  center;
-  background-color:  white;
-  padding:  5px;  height:  26px;  width:  257px;
-  margin-left:  58px;
-  margin-top:  91px;
-  border-radius:  4px;
+background: #FFFFFF;
+border-radius: 4px;
+
+
+
+
 }
