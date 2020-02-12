@@ -91,11 +91,13 @@ bottom: 86.81%;
 }
 
 .Search {
-
-  position: absolute;
+position: absolute;
 height:  18.16px;
 width:  18px;
-
 background-image:  url("Search.png");
 background-repeat:  no-repeat;
+left: 2.72%;
+right: 90.27%;
+top: 27.5%;
+bottom: 27.1%;
 }
