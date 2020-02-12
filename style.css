@@ -66,21 +66,23 @@ h1 {
 }
 
 .input-container {
-  position:  absolute;
-  display:  inline-flex;
+  position:  relative;
+  display:  block;
   background: #FFFFFF;
   border-radius: 4px;
+  height:  40px;
+  width:  257px;
   left: 15.73%;
 right: 15.73%;
-top: 7.2%;
+top:34%;
 bottom: 86.81%;
+
 }
 
 .Search-icon {
   margin-left:  30px;
+
   border-style:  none;
-
-
 }
 
 
