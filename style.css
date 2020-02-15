@@ -18,9 +18,10 @@ body {
 }
 
 nav {
+  position: fixed;
   background-color:  #2d923e;
   height:  149px;
-  width:  100%;
+  width:  375px;
   box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
@@ -41,7 +42,7 @@ nav {
   position:  absolute;
   left:  2.13%;
   right:  94.59%;
-  top:  3.6%;
+  top:  16%;
   bottom:  93.3%;
   background-image:  url("back arrow.png");
 
@@ -125,6 +126,27 @@ bottom: 27.1%;
   background-repeat:  no-repeat;
   left: 270px;
   bottom:  12px;
+}
+
+.businformation {
+  position:  absolute;
+  width:  375px;
+  height:  518px;
+  left:  0px;
+  top:  149px;
+
+}
+
+.content {
+  position:  relative;
+  margin:  0 auto;
+  left:  0px;
+  height:  67px;
+
+  border-bottom: 1px color:  black;
+}
+
+
 
 
 }
