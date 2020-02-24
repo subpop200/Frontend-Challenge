@@ -6,6 +6,7 @@ body {
   background-color:  rgb(177, 176, 174);
 }
 
+
 .container {
   position:  center;
   position:  relative;
@@ -16,6 +17,7 @@ body {
   Font-size:  18px;
 
 }
+
 
 nav {
   position: fixed;
@@ -128,25 +130,114 @@ bottom: 27.1%;
   bottom:  12px;
 }
 
-.businformation {
-  position:  absolute;
-  width:  375px;
-  height:  518px;
-  left:  0px;
-  top:  149px;
 
-}
-
-.content {
+.container2 {
   position:  relative;
+  display:  block;
   margin:  0 auto;
-  left:  0px;
+  top:  149px;
   height:  67px;
+  width:  375px;
+  border-bottom:  1px solid #DADADA;
 
-  border-bottom: 1px color:  black;
+
+
+}
+.busnumber {
+  position:  absolute;
+  display: inline-block;
+  margin-left:  18px;
+  margin-top: 3px;
+
+}
+
+.location {
+  position: absolute;
+  display:  inline-block;
+  vertical-align: middle;
+  line-height:  2%;
+  margin-left:  56px;
+  margin-top:  8px;
+}
+
+.time {
+  position:  absolute;
+  display:  inline-block;
+  line-height:  0%;
+  margin-left:  240px;
+  margin-top:  -4px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  display:  inline-block;
+  vertical-align: middle;
+  display:  table;
+  text-align:  center;
+  font-size:  20px;
+  font-family: sans-serif;
+
+}
+
+.align-center {
+  text-align: center;
+}
+
+.shape {
+  position:  absolute;
+  background:  #C4C4C4;
+  width:  38px;
+  height:  38px;
+  margin:  0 auto;
+  border-radius:  50%;
+  left:  10px;
+  top:  13px;
+
+
 }
 
 
+h3 {
+  font-size:  14px;
+  font-family:  sans-serif;
+  font-weight: lighter;
 
+}
+h4{
+  font-size:  14px;
+  font-weight: 600 ;
+  font-family:  sans-serif;
+}
+
+h5{
+  font-size:  14px;
+  font-family:  sans-serif;
+  font-weight:  lighter;
+
+
+}
+h6{
+  font-size:  14px;
+  font-family:  sans-serif;
+  font-weight:  lighter;
+
+
+}
+
+.red {
+  color:  red;
+}
+
+.forwardarrow {
+  position: absolute;
+  left:  353px;
+  top:  22px;
+}
+
+.forwardarrow:hover {
+  position: absolute;
+  left:  353px;
+  top:  22px;
+  background-color:  #d7d7d7;
 
 }
