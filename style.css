@@ -12,9 +12,11 @@ body {
   position:  relative;
   margin:  0 auto;
   background-color: white;
+
   Height:  667px;
   Width:  375px;
   Font-size:  18px;
+
 
 }
 
@@ -28,6 +30,7 @@ nav {
 
 
 }
+
 
 .base {
   position: absolute;
@@ -47,9 +50,16 @@ nav {
   top:  16%;
   bottom:  93.3%;
   background-image:  url("back arrow.png");
-
 }
 
+.backarrow:hover {
+  position:  absolute;
+  left:  2.13%;
+  right:  94.59%;
+  top:  16%;
+  bottom:  93.3%;
+  background-color:  #d7d7d7;
+}
 h1 {
   position:  absolute;
   display:  inline-block;
@@ -120,6 +130,7 @@ bottom: 27.1%;
   height:  40px;
   width:  257px;
   top:  25px;
+
 }
 
 .switcharrows {
@@ -128,6 +139,13 @@ bottom: 27.1%;
   background-repeat:  no-repeat;
   left: 270px;
   bottom:  12px;
+}
+
+.switcharrows:hover {
+  position:  absolute;
+  left:  270px;
+  bottom:  12px;
+  background-color:  #d7d7d7;
 }
 
 
@@ -214,18 +232,28 @@ h4{
   font-weight: 600 ;
   font-family:  sans-serif;
 }
+li {
+  position:  relative;
+  list-style:  none;
+  display:  inline;
+}
+
+.righttime {
+  position:  relative;
+  left:  64%;
+  bottom:  8px;
+  display:  flex;
+
+}
+
+
 
 h5{
   font-size:  14px;
+  text-align:  left;
   font-family:  sans-serif;
   font-weight:  lighter;
 
-
-}
-h6{
-  font-size:  14px;
-  font-family:  sans-serif;
-  font-weight:  lighter;
 
 
 }
@@ -246,4 +274,12 @@ h6{
   top:  22px;
   background-color:  #d7d7d7;
 
+}
+
+
+
+.secondhalf {
+  height:  667px;
+  overflow:  hidden;
+  overflow-block: scroll;
 }
