@@ -95,15 +95,13 @@ h1 {
   margin-left:  30px;
   align-items: center;
   position:  relative;
-
-
   border-style:  none;
 }
 
 
 
 .input-field {
-  position:  relative;
+  position:  absolute;
   top:  9px;
   border-style:  none;
   font-size:  18px;
